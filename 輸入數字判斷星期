@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class test2021020101 {
+    public static void main(String[] args) {
+        String[] strArray = {"","星期一","星期二","星期三","星期四","星期五","星期六","星期日"};
+        Scanner sc = new Scanner (System.in);
+        System.out.println("請輸入1-7的任一數字。");
+        int week = sc.nextInt();
+        System.out.println("你想得到的是:" + strArray[week]);
+    }
+
+}
