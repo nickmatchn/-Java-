@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class test0204 {
+    public static void main(String[] args) {
+        System.out.println("請輸入一個數字");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if (a% 2 ==0) {
+            System.out.println("你輸入的是" + a +"，是偶數");
+        }else{
+            System.out.println("你輸入的是" + a +"，是奇數");
+        }
+    }
+}
