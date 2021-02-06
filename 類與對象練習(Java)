@@ -1,0 +1,38 @@
+public class Student {
+    public static void main(String[] args) {
+      //原類別名  新類別名  = new 類別建構子()；
+        Role role = new Role();
+      //給成員賦值。
+        role.nickName = "張三";
+        role.gender = "男";
+        role.skill = "逃走";
+      //使用變量成員。
+        System.out.println("姓名:" + role.nickName);
+        System.out.println("性別:" + role.gender);
+        System.out.println("按能:" + role.skill);
+
+
+    }
+    public static class Role {
+        //類的定義。
+        String nickName;
+        String gender;
+        String skill;
+    }
+    //建立方法。
+    void walk(){
+        System.out.println("Walk...");
+    }
+    void run(){
+        System.out.println("跑");
+    }
+    void hit(){
+        System.out.println("攻擊");
+    }
+
+}
+>>>
+
+姓名:張三
+性別:男
+按能:逃走
