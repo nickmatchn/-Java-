@@ -1,0 +1,14 @@
+public class test2021020705 {
+    public static void main(String[] args) {
+        int i = 1;
+        int n = 1;
+        while(i <= 10){
+            n = n * i;
+            i++;
+        }
+        System.out.println("10的階乘結果為:" + n);
+    }
+}
+
+>>>
+10的階乘結果為:3628800
