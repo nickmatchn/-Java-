@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class test2021020702 {
+    public static void main(String[] args) {
+        int number1;
+        int number2;
+        System.out.println("請輸入第1個整數(number1):");
+        Scanner input = new Scanner(System.in);
+        number1 = input.nextInt();
+        System.out.println("請輸入第2個整數(number1):");
+        number2 = input.nextInt();
+        System.out.printf("number1=%d,number2=%d \n", number1, number2);
+        if (number1 == number2) {
+            System.out.println("二者相同");
+        } else if(number1 != number2) {
+            System.out.println("二者不相同");
+        }
+        if (number1 > number2) {
+            System.out.println("number1比number2大");
+        } else if(number1 < number2) {
+                System.out.println("number1比number2小");
+        }
+    }
+}
+
+>>>
+
+請輸入第1個整數(number1):
+19
+請輸入第2個整數(number1):
+20
+number1=19,number2=20 
+二者不相同
+number1比number2小
