@@ -1,0 +1,24 @@
+public class test2021020706 {
+    public static void main(String[] args) {
+        int[] numbers = { 1,2,3,4,5,6,7,8,9,10};
+        for(int i = 0; i < numbers.length;i++){
+            if(i ==3){
+                continue;
+            } System.out.println("Count is:" + i);
+
+
+        }
+
+    }
+}
+
+>>>>
+Count is:0
+Count is:1
+Count is:2   ///// 會跳過 Count is :3 
+Count is:4
+Count is:5
+Count is:6
+Count is:7
+Count is:8
+Count is:9
