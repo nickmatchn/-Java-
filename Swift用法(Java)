@@ -1,0 +1,28 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class test2021020704 {
+    public static void main(String[] args) {
+        System.out.println("請輸入號碼");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        switch(num) {
+            case 8:
+                System.out.println("恭熹抽中一獎");
+                break;
+            case 88:
+                System.out.println("恭熹抽中2獎");
+                break;
+                case 888:
+                System.out.println("恭喜中三獎");
+                break;
+                default:
+                    System.out.println("數據錯誤，請重新輸入");
+
+        }
+    }
+}
+>>>>
+請輸入號
+23
+數據錯誤，請重新輸入
