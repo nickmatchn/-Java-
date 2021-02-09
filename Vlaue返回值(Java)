@@ -1,0 +1,12 @@
+public class test20210209 {
+    public  static  void  main ( String [] args )  {
+        Number num = new Double(12.5);
+        System.out.println("返回Double類型的值:"+ num.doubleValue());
+        System.out.println("返回int類型的值:"+ num.intValue());
+        System.out.println("返回float類型的值:"+ num.floatValue());
+    }
+}
+>>>
+返回Double類型的值:12.5
+返回int類型的值:12
+返回float類型的值:12.5
