@@ -1,0 +1,24 @@
+Java求數組元素的最大和最小值
+
+public  class Example { 
+    public  static  void  main ( String [] args )  {
+        int score []  =  {  67 ,  89 ,  87 ,  69 ,  90 ,  100 ,  75 ,  90  } ;  //初始化數組
+        int max =  0 ;  //定義變量保存到最大值
+        int min =  0 ;  //定義變量保存到最小值
+        max = min = score [ 0 ];  //把第1個元素的內容賦值給max和min
+        for  ( int x =  0 ; x < score . length ; x ++)  {  //循環求岀最大和最小
+            if  ( score [ x ]  > max )  {  //依次判斷後續元素是否比max大
+                max = score [ x ];  //如果大則修改max內容
+            }
+            if  ( score [ x ]  < min )  {  //依次判斷後續的元素是否比min小
+                min = score [ x ];  //如果小，則修改min內容
+            }
+        }
+        System . out . println ( "最高成績："  + max );  //輸出最大值
+        System . out . println ( "最低成績："  + min );  //輸出最小值
+    }
+}
+>>>
+程序運行結果如下：
+最高成績：100
+最低成績：67
