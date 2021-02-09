@@ -1,0 +1,20 @@
+public class test20210209 {
+    public  static  void  main ( String [] args )  {
+        int num =  40 ;
+        String  str = Integer . toString ( num );  //將數字轉換成字符串
+        String  str1 = Integer . toBinaryString ( num );  //將數字轉換成二進制
+        String  str2 = Integer . toHexString ( num );  //將數字轉換成八進制
+        String  str3 = Integer . toOctalString ( num );  //將數字轉換成十六進制
+        System . out . println ( str +  "的二進制數是："  + str1 );
+        System . out . println ( str +  "的八進制數是："  + str3 );
+        System . out . println ( str +  "的十進制數是："  + str );
+        System . out . println ( str +  "的十六進制數是："  + str2 );
+    }
+}
+>>>>
+40的二進制數是：101000
+40的八進制數是：50
+40的十進制數是：40
+40的十六進制數是：28
+
+Process finished with exit code 0
