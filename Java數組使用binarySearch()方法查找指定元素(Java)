@@ -1,0 +1,29 @@
+Java數組使用binarySearch()方法查找指定元素
+
+public  static  void  main ( String [] args )  {
+    double [] score =  {  99.5 ,  100 ,  98 ,  97.5 ,  100 ,  95 ,  85.5 ,  100  } ;
+    Arrays . sort ( score );
+    int index1 = Arrays . binarySearch ( score ,  100 );
+    int index2 = Arrays . binarySearch ( score ,  60 );
+    System . out . println ( "查找到100的位置是："  + index1 );
+    System . out . println ( "查找到60的位置是："  + index2 );
+}
+
+>>>
+查找到100 的位置是：5
+查找到60 的位置是：-1
+----------------------------------
+對例1 中創建的score 數組進行查找元素，指定開始位置為2，結束位置為6。代碼如下:
+
+public  static  void  main ( String [] args )  {
+    double [] score =  { 99.5 , 100 , 98 , 97.5 , 100 , 95 , 85.5 , 100 } ;
+    Arrays . sort ( score );
+    int index1 = Arrays . binarySearch ( score , 2 , 6 , 100 );
+    int index2 = Arrays . binarySearch ( score , 2 , 6 , 60 );
+    System . out . println ( "查找到100的位置是：" + index1 );
+    System . out . println ( "查找到60的位置是：" + index2 );
+}
+>>>
+查找到100 的位置是：5
+查找到60 的位置是：-3
+----------------------------------
